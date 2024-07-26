@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClientConfig>
+    <Server>http://192.168.191.182/</Server>
+    <MaxFlleSize>10</MaxFlleSize>
+    <MaxFileResolution>1920*1080</MaxFileResolution>
+    <NetworkTimeout>2</NetworkTimeout>
+</ClientConfig>
+
+<ClientVersion>1.0</ClientVersion>
