@@ -7,7 +7,7 @@ import argparse
 routes = web.RouteTableDef()
 script_path = os.path.realpath(os.path.dirname(sys.argv[0]))
 
-parser = argparse.ArgumentParser(description='这是一个命令行参数示例')
+parser = argparse.ArgumentParser(description='服务命令行参数说明')
 parser.add_argument('--listen', type=str, help='监听地址默认为127.0.0.1', default='127.0.0.1')
 parser.add_argument('--port', type=int, help='监听端口默认为80', default=80)
 
